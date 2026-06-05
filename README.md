@@ -117,7 +117,7 @@ DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=agriverse
 PORT=5000
-WEATHER_API_KEY
+WEATHER_API_KEY=your_api_key
 ```
 
 Start the backend:
