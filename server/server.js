@@ -10,7 +10,15 @@ import historyRoutes from "./routes/historyRoutes.js";
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://weather-ai-sigma-lake.vercel.app",
+    ],
+    credentials: true,
+  }),
+);
 app.use(express.json());
 
 app.use("/api/farms", farmRoutes);
