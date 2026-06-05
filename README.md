@@ -6,8 +6,8 @@ AgriSense AI is a full-stack smart farming dashboard built to monitor farms, sur
 
 ## Live Demo
 
-- Frontend: _(add deployed link here)_
-- Backend API: _(add deployed backend URL here)_
+- Frontend: https://weather-ai-sigma-lake.vercel.app/
+- Backend API: https://weather-ai-qn24.onrender.com
 
 ---
 
@@ -98,7 +98,7 @@ Each weather request is evaluated and stored with a summary in the database.
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/weather_ai.git
+git clone https://github.com/andawa01/weather_ai.git
 cd weather_ai
 ```
 
@@ -175,10 +175,8 @@ If your weather integration uses a third-party API, add the corresponding API ke
 
 ### Database
 
-- PlanetScale
-- Railway MySQL
-- Hosted MySQL instance
-
+- Freesqldatabase
+  
 ---
 
 ## Author
